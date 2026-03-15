@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog of the Day</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <h1 class="header__title">Dog of the Day</h1>
+        <p class="header__subtitle">Your daily dose of adorable</p>
+      </header>
+
+      <main class="main">
+        <div class="card">
+          <div class="card__image-wrapper">
+            <img
+              id="dog-image"
+              class="card__image"
+              src=""
+              alt="A cute dog"
+            />
+            <div class="card__skeleton" id="skeleton"></div>
+          </div>
+          <div class="card__body">
+            <p class="card__breed" id="dog-breed">Loading...</p>
+            <button class="btn" id="fetch-btn">
+              <span class="btn__icon">🐾</span>
+              New Dog
+            </button>
+          </div>
+        </div>
+
+        <p class="error-msg hidden" id="error-msg">
+          Failed to fetch a dog. Please try again.
+        </p>
+      </main>
+
+      <footer class="footer">
+        <p>Powered by <a href="https://dog.ceo/dog-api/" target="_blank" rel="noopener">Dog CEO API</a></p>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
