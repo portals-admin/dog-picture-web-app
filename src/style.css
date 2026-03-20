@@ -6,14 +6,14 @@
 }
 
 :root {
-  --color-bg: #fdf6ee;
-  --color-surface: #ffffff;
-  --color-primary: #e07b39;
-  --color-primary-hover: #c96a28;
-  --color-text: #2d2d2d;
-  --color-muted: #888;
-  --color-border: #e8ddd0;
-  --color-skeleton: #ede8e0;
+  --color-bg: #1a3a5c;
+  --color-surface: #22456a;
+  --color-primary: #4a9eff;
+  --color-primary-hover: #3888e8;
+  --color-text: #e8f0ff;
+  --color-muted: #8ab4d8;
+  --color-border: #2e5580;
+  --color-skeleton: #2a4e72;
   --radius-card: 1.25rem;
   --radius-btn: 0.75rem;
   --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.10);
@@ -79,7 +79,7 @@ html {
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.3);
 }
 
 .card__image-wrapper {
@@ -110,7 +110,7 @@ html {
   background: linear-gradient(
     90deg,
     var(--color-skeleton) 25%,
-    #f5f0e8 50%,
+    #345e85 50%,
     var(--color-skeleton) 75%
   );
   background-size: 200% 100%;
