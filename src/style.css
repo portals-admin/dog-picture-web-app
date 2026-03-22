@@ -97,6 +97,7 @@ html {
   display: block;
   opacity: 0;
   transition: opacity 0.4s ease;
+  filter: hue-rotate(200deg) saturate(1.5);
 }
 
 .card__image.loaded {
